@@ -170,7 +170,7 @@ git revert HEAD
 
 #### Specific commit:
 ~~~bash
-git log --online # use to calculate the commit index (current commit is 0)
+git log --oneline # use to calculate the commit index (current commit is 0)
 git revert HEAD~2 # where 2 is the commit index
 ~~~
 
